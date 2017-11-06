@@ -72,7 +72,7 @@ self::$sql .= "No records";
 }
 public static function printResults()
 {
-
+echo " Number of records returned: " . self::$count . " </br> ";
 echo self::$sql;
 }
 }
